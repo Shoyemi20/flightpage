@@ -35,7 +35,7 @@
    z-index: 1;
    padding: 1rem 5rem;
    transition: 0.6s ease-in-out;
-  color: #fff;
+  color: #ccc;
 }
 
 #navbar ul {
@@ -45,7 +45,7 @@
 }
 
 #navbar h2 a{
-  color: #fff;
+  color: #ccc;
   text-decoration: none;
   font-size: xx-large;
 }
@@ -53,7 +53,7 @@
 
 #navbar li a {
   text-decoration: none;
-  color: #fff;
+  color: #ccc;
   padding: 0.5rem; 
   font-size: 0.8rem;
   margin: 0 0.5rem;
@@ -72,7 +72,7 @@ display: flex;
 font-size: 0.9rem;
 text-transform: uppercase;
 font-weight: 500;
-color: #fff;
+color: #ccc;
   letter-spacing: 1px;
   border-radius: 3px;
   transition: 0.2s ease-in-out;
@@ -94,17 +94,17 @@ color: #fff;
      left: 0;
      bottom: 0;
      right: 0;
-     color: #fff;
+     color: #ccc;
   }
   
   .showcase-content h1 {
-    color: #fff;
+    color: #ccc;
     font-size: 3rem;
     margin-bottom: 0.8rem;
   }
   
   .showcase-content p {
-    color: #fff;
+    color: #ccc;
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
@@ -116,13 +116,13 @@ color: #fff;
     font-size: 20px;
     outline: none;
     border-radius: 10px;
-    color: #fff;
+    color: #ccc;
     background: hsl(218, 28%, 13%) ;
   }
   
   .showcase-content .btn:hover {
     background: hsl(218, 28%, 13%);
-    color: #fff;
+    color: #ccc;
   }
   
   .btn {
@@ -154,7 +154,7 @@ color: #fff;
 }
 
 h3 {
-  color: #fff;
+  color: #ccc;
   text-align: center;
   margin-bottom: 50px;
   font-size: xx-large;
@@ -175,7 +175,7 @@ label {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px; 
-    color: #fff;
+    color: #ccc;
 }
 
 input[type="text"],
@@ -192,7 +192,7 @@ select {
 input[type="submit"] {
   width: 100%;
   background-color: hsl(216, 65%, 17%);
-  color: #fff;
+  color: #ccc;
   border: none;
   border-radius: 10px;
   padding: 5px;
@@ -202,7 +202,86 @@ input[type="submit"]:hover {
     background-color: hsl(218, 28%, 13%);
 }
 
+/* Destinations */
+.destinations{
+font-family: Arial, sans-serif;
+background: hsl(218, 28%, 13%);
+margin: 0;
+padding: 0;
+}
+.destination-part {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: hsl(218, 28%, 13%);
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h4 {
+   color: #ccc;
+font-size: xx-large;
+text-align: center;
+margin-bottom: 50px;
+}
+.destination {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+.destination-card {
+width: calc(33.33% - 20px);
+padding: 20px;
+background-color: hsl(218, 28%, 13%);
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+.destination-card img {
+width: 100%;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.destination-card h5 {
+  font-size: xx-large;
+ color: #ccc;
+margin-bottom: 40px;
+}
+.destination-card p {
+  color: #ccc;
+margin-bottom: 20px;
+}
 
+/* Aboutus */
+#aboutus   {
+  color: #ccc;
+ font-family: Arial, sans-serif;
+background-color: hsl(218, 28%, 13%);
+margin: 0;
+padding: 0;
+}
+.aboutus-part {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h6 {
+  font-size: xx-large;
+text-align: center;
+margin-bottom: 60px;
+}
+.aboutus-part img {
+  float: right;
+}
+
+
+
+p {
+line-height: 1.6;
+margin-bottom: 20px;
+}
 
 
 
